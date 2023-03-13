@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rest API</title>
+</head>
+<body>
+  <section class="section-posts">
+    <div class="container">
+      <div class="posts">
+       
+      </div>
+    </div>
+  </section>
+
+  <section class="section-form__add">
+    <div class="container">
+      <h2>Добавить пост</h2>
+      <form class="form">
+        <label class="form__label" for="title">Title</label>
+        <input class="form__input" type="text" id="title" name="title">
+
+        <label class="form__label" for="body">Body</label>
+        <input class="form__input" type="text" id="body" name="body">
+
+        <button type="submit" class="form__button">отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section-form__add">
+    <div class="container">
+      <h2>Редактировать пост</h2>
+      <form class="form form-edit">
+        <label class="form__label" for="title">Title</label>
+        <input class="form__input" type="text" id="title-edit" name="title">
+
+        <label class="form__label" for="body">Body</label>
+        <input class="form__input" type="text" id="body-edit" name="body">
+
+        <button type="submit" class="form__button">отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
